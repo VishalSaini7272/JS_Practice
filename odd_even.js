@@ -1,13 +1,3 @@
-// const tinderUser = {}
-// tinderUser.id = "abc_123";
-// tinderUser.name = "vishal";
-// tinderUser.email = "t123@google.com"
-// tinderUser.isloggedIn = "true"
-
-// // console.log(tinderUser);
-
-
-
 
 //  print the numbers from 1 to 10.
 
@@ -52,3 +42,64 @@ for(let i=100;i>=0;i--){
 // console.log(i);
     }
 }
+
+
+// write a program to add 5 oadd numbers in a array.
+// function oddArray (n){
+//     let result = [];
+//     for(let i=1;i<=(2*n-1);i=i+2){
+// result.push(i);
+//     }
+//     return result;
+// }
+// console.log(oddArray(5));  //output ---> [1,3,5,7,9]
+
+
+// addArray = [1,3,5,7,9] find the total sum of this odd array.
+let oddArray = [1,3,5,7,9]
+    let result = 0;
+    for(let i=0;i<oddArray.length;i++){
+        result = result + oddArray[i];
+    }
+    console.log(result);
+
+
+    //Print the string reserve without in-built method.
+
+    // let str = "hello";
+// let row = "";
+// for(i=str.length-1;i>=0;i--){
+// row = row + str[i];
+// }
+// console.log(row);
+
+
+
+
+    //Print the string reserve with in-built method.
+
+    // let str = "hello";
+   // let str ="hello";
+   // let reversed = str.split('').reverse().join('');
+  // console.log(reversed);  
+
+  //check the number is palindrome no. or not ?
+
+// let num = "121";
+// reversed = num.toString().split('').reverse().join('');
+// if(num === reversed){
+//   console.log("true");
+// }else{
+//   console.log("false")
+// }
+
+
+//check the str is palindrome no. or not ?
+
+// let str = "level";
+// reversed = str.split('').reverse().join('');
+// if(str === reversed){
+//   console.log("true");
+// }else{
+//   console.log("false")
+// }

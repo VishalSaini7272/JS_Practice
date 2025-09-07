@@ -130,3 +130,29 @@
 // 	console.log(row);
 // }
 
+
+
+//Continue alphabets character printing:-
+
+// let n =5;
+// for(let i=1;i<=n;i++){
+//   let ch = String.fromCharCode(64+i);
+//   let row = "";
+//   for(j=1;j<=i;j++){
+//     row = row + ch;
+//   }
+//   console.log(row)
+// }
+
+
+//Print Alphabets printing :-
+
+// let n =5;
+// for(let i=0;i<n;i++){
+//     let row = "";
+//     for(let j=0;j<=i;j++){
+//       let char = 65 + (i+j);
+//        row = row + String.fromCharCode(char);
+//     }
+// console.log(row)
+//   }
